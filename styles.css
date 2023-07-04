@@ -19,7 +19,7 @@ header{
     background-color: white;
 }
 main{
-    padding: 2rem 2rem;
+    padding: 1.5rem;
 }
 main h1{
     margin-bottom: 1.5rem;
@@ -41,7 +41,7 @@ main p{
 }
 section{
     background-color: hsl(179, 62%, 43%);
-    padding: 2rem 2rem;
+    padding: 1.5rem;
     color: white;
 }
 section h3{
@@ -75,7 +75,7 @@ section .pp{
 }
 article{
     background-color: hsl(179, 62%, 49%);
-    padding: 2rem 2rem;
+    padding: 1.5rem;
     color: white;
 }
 article h3{
