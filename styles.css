@@ -19,7 +19,7 @@ header{
     background-color: white;
 }
 main{
-    padding: 1.5rem;
+    padding: 1rem;
 }
 main h1{
     margin-bottom: 1rem;
@@ -41,7 +41,7 @@ main p{
 }
 section{
     background-color: hsl(179, 62%, 43%);
-    padding: 1.5rem;
+    padding: 1rem;
     color: white;
 }
 section h3{
@@ -67,7 +67,7 @@ section .pp{
     color: white;
     background-color: hsl(71, 73%, 54%);
     font-family: inherit;
-    padding: 0.7rem 1.25rem;
+    padding: 0.6rem 1.25rem;
     width: 100%;
     border: none;
     border-radius: 0.25rem;
@@ -75,21 +75,21 @@ section .pp{
 }
 article{
     background-color: hsl(179, 62%, 49%);
-    padding: 1.5rem;
+    padding: 1rem;
     color: white;
 }
 article h3{
     margin-bottom: 1rem;
     font-weight: 700;
     font-family: inherit;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 article p{
     line-height: 1.5rem;
 }
 @media (min-width: 768px) {
     body{
-        margin-top: 100px;
+        margin-top: 70px;
     }
     header{
         width: 635px;
