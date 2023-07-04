@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color: white;
+}
+main{
+    padding: 1.5rem;
+}
+main h1{
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: hsl(179, 62%, 43%);
+}
+main h3{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+main p{
+    margin-bottom: 1.5rem;
+    color: hsl(218, 22%, 67%);
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+section{
+    background-color: hsl(179, 62%, 43%);
+    padding: 1.5rem;
+    color: white;
+}
+section h3{
+    margin-bottom: 1rem;
+}
+section .price{
+    margin-bottom: 0.7rem;
+    color: rgba(255, 255, 255, 0.701);
+    font-size: 1rem;
+}
+span{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+section .pp{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    font-family: inherit;
+    padding: 0.7rem 1.25rem;
+    width: 100%;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.161);
+}
+article{
+    background-color: hsl(179, 62%, 49%);
+    padding: 1.5rem;
+    color: white;
+}
+article h3{
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 1.5rem;
+}
+article p{
+    line-height: 1.5rem;
+}
+@media (min-width: 768px) {
+    body{
+        margin-top: 100px;
+    }
+    header{
+        width: 635px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "head head"
+        "sect art"
+        ;
+    }
+    main{
+        grid-area: head;
+    }
+    section{
+        grid-area: sect;
+    }
+    article{
+        grid-area: art;
+        padding-left: 2rem;
+    }
+}
